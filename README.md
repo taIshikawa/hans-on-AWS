@@ -5,6 +5,7 @@
 - docker-compose up -d 
 - docker-compose exec php bash 
 - 必要があれば、composer 
+- php artisan migrate
 - exit
 
 docker-compose exec server bash 
